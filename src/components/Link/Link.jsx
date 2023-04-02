@@ -2,11 +2,9 @@ import React from "react";
 
 const Link = ({ route }) => {
   return (
-    <div>
-      <li>
-        <a href={route.path}>{route.name}</a>
-      </li>
-    </div>
+    <li className="hover:bg-purple-600">
+      <a href={route.path}>{route.name}</a>
+    </li>
   );
 };
 
